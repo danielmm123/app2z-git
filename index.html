@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicación</title>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<!--grupo css-->
+<link rel="stylesheet" href="css/tema-app1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+
+<body>
+
+   <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header"    data-back-btn-theme="b"> 
+
+     <h1>Telefonia celular</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible"> 
+       <h1>Telefono</h1>
+         <div>
+          <p>Imagen de uno de los primeros telefonos </p>
+          <br>
+         </div>
+         <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/TELEFONO MOVIL DOMESTICO.jpg',1)"><img src="imagenes/TELEFONO ANTIGUO 2.jpg" width="565" height="400" id="Image16"></a> </div>
+    </div>
+    <div>
+          <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Telefono celular Actual</h1>
+         <div>
+          <p>Imagen de un telefono celular actual </p>
+          <br>
+         </div>
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('IMAGEN2','','imagenes/tm.jpg',1)"><img src="imagenes/image29.jpg" width="540" height="549" id="IMAGEN2"></a> </div>
+     </div>
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btm-icon-right ui-icon-carat-r">
+          <h2>Definición</h2>
+          <p>Se muestra la definición</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btm-icon-right ui-icon-carat-r">
+           <h2>Historia de la telefonia celular</h2>
+           <p>Se muestra la historia de la telefonia celular</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btm-icon-right ui-icon-carat-r">
+           <h2>Clasificación</h2>
+           <p>Se muestra las clasificaciones</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btm-icon-right ui-icon-carat-r">
+           <h2>Compañias que ofrecen el servicio de telefonia</h2>
+           <p>Muestra las complañias telefonicas</p>
+        </a>
+      </li>
+      </ul>
+    </div>
+    
+    
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/telefono_antiguo_2.jpg" alt="TELEFONO ANTIGUO 2" title="TELEFONO ANTIGUO 2" id="wows1_0"/></li>
+		<li><img src="data1/images/gran_prime.jpg" alt="gran prime" title="gran prime" id="wows1_1"/></li>
+		<li><img src="data1/images/iphone7.png" alt="iphone7" title="iphone7" id="wows1_2"/></li>
+		<li><img src="data1/images/nokia3310.jpg" alt="nokia-3310" title="nokia-3310" id="wows1_3"/></li>
+		<li><img src="data1/images/samsungtelefono_del_futuro.jpg" alt="samsung-TELEFONO DEL FUTURO" title="samsung-TELEFONO DEL FUTURO" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/telefono_antiguo.jpg" alt="responsive slider" title="TELEFONO ANTIGUO" id="wows1_5"/></a></li>
+		<li><img src="data1/images/telefono_movil_domestico.jpg" alt="TELEFONO MOVIL DOMESTICO" title="TELEFONO MOVIL DOMESTICO" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="TELEFONO ANTIGUO 2"><span><img src="data1/tooltips/telefono_antiguo_2.jpg" alt="TELEFONO ANTIGUO 2"/>1</span></a>
+		<a href="#" title="gran prime"><span><img src="data1/tooltips/gran_prime.jpg" alt="gran prime"/>2</span></a>
+		<a href="#" title="iphone7"><span><img src="data1/tooltips/iphone7.png" alt="iphone7"/>3</span></a>
+		<a href="#" title="nokia-3310"><span><img src="data1/tooltips/nokia3310.jpg" alt="nokia-3310"/>4</span></a>
+		<a href="#" title="samsung-TELEFONO DEL FUTURO"><span><img src="data1/tooltips/samsungtelefono_del_futuro.jpg" alt="samsung-TELEFONO DEL FUTURO"/>5</span></a>
+		<a href="#" title="TELEFONO ANTIGUO"><span><img src="data1/tooltips/telefono_antiguo.jpg" alt="TELEFONO ANTIGUO"/>6</span></a>
+		<a href="#" title="TELEFONO MOVIL DOMESTICO"><span><img src="data1/tooltips/telefono_movil_domestico.jpg" alt="TELEFONO MOVIL DOMESTICO"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+      <IMG SRC="imagenes/logo.png" width="46" height="46">
+      </div>
+      <div>
+        <h4>Aplicación Dos</h4>
+        <h4>Daniel Muñoz Mojica</h4>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     
+       <h1>Definición</h1>
+     </div>
+     <div data-role="content" align="center">
+        <div>
+          <h2>Dispositivo electrónico que permite realizar múltiples operaciones de forma inalámbrica en cualquier lugar donde tenga señal. Entre las múltiples operaciones se incluyen la realización de llamadas telefónicas, navegación por internet, envío de mensajes de texto (SMS), captura de fotos y sonidos, reloj, agenda, realización de pagos, etc.</h2>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>1</h1>
+           <div>
+             <p>TELEFONOS CELULARES =D</p>
+             <br>
+           </div>
+              <div>
+           <img src="imagenes/Smartphones-del-2015-500x314.jpg" width="40%" height="37%">
+              </div>
+       </div>
+   </div>
+               </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>2</h1>
+         <div>
+          <p>TELEFONOS CELULARES =D</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/tm.jpg" width="40%" height="37%">
+         </div>
+           </div>
+             </div>
+             </div>
+                   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>3</h1>
+         <div>
+          <p>TELEFONOS CELULARES =D</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/nokia-3310.jpg" width="40%" height="37%">
+         </div>
+           </div>
+             </div>
+    </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicación dos, DMM</h4>
+     </div>
+    </div>
+   </div>
+  </div>
+    
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Historia de la Telefonia Celular</h1>
+     </div>
+     <div data-role="content" align="center">
+        <div>
+          <h2>El primer antecedente técnico de la telefonía móvil fueron los servicios de comunicación públicos de radiotelefonía establecidas en algunas ciudades estadounidenses durante los años 1940. Usaba un único transmisor y ofrecía seis canales de transmisión, la popularidad del servicio hizo que rápidamente quedara bloqueado, pero en 1947 AT&T dio con la solución, en lugar de utilizar un único transmisor, creó una red de transmisores de baja potencia, cada uno para un área concreta o "célula" (de ahí derivó el término teléfono celular que en muchos países es la forma de referirse a la telefonía móvil).</h2>
+<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>ANTES</h1>
+         <div>
+          <p>HISTORIA DEL TELEFONO CELULAR</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/TELEFONO ANTIGUO.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>ACTUALIDAD</h1>
+         <div>
+          <p>HISTORIA DEL TELEFONO CELULAR </p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/image29.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>EN UN FUTURO</h1>
+         <div>
+          <p>HISTORIA DEL TELEFONO CELULAR </p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/samsung-TELEFONO DEL FUTURO.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+      </div> 
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicación dos, DMM</h4>
+     </div>
+    </div></div></div></div>
+    
+    
+      <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>CLASIFICACIÓN</h1>
+     </div>
+     <div data-role="content" align="center">
+        <div>
+          <h2>Gama baja
+<hr>
+En esta categoria se colocan los celulares que no tienen muchas utilidades por ejemplo que sus pantallas son de escasas dimensiones y resolucion, poca memoria RAM y minima capacidad de almacenamiento interno, camaras VGA, menores herramientas, acceso a redes y aplicaciones,etc. Ademas estan diseñados de manera muy sencilla.
+</h2>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>GBaja</h1>
+         <div>
+          <p>Imagen de un ejemplo de telefono celular gama baja </p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/nokia-3310.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+ <h2>Gama media
+ <hr>
+Son los telefonos celulares que estan cerca de ser gama alta, pero que estan por debajo de la tendencia en unas caracteristicas del funcionamiento(sistema operativo, procesador, memoria RAM, bateria, acceso a redes y conectividad).Aqui tambien se clasifican los celulares que hasta hace poco fueron gama alta, pero su condicion se pierde con el tiempo por los nuevos equipos que salen cada año con enormes mejoras.
+</h2>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>GMedia</h1>
+         <div>
+          <p>Imagen de un ejemplo de telefono celular gama media </p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/gran prime.jpg" width="43%" height="31%">
+         </div>
+           </div>
+    </div>
+    <div>
+ <h2>Gama Alta
+ <hr>
+A este nivel encajan los smartphones que esten dotados con casi todos los elementos mas evolucionados de la telefonia movil o reunen todas las caracteristicas, componentes, avances,e innovaciones respecto a su funcionamiento  como la pantalla, acceso a redes de maxima velocidad, conectividad, procesador, memoria RAM, bateria, capacidad,camara fotografica etc.
+</h2>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>GAlta</h1>
+         <div>
+          <p>Imagen de un ejemplo de telefono celular gama alta</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/iphone7.png" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+      </div>
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicación dos, DMM</h4>
+     </div>
+    </div></div></div></div>
+    
+    
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Compañias que Ofrecen el Servicio de Telefonia</h1>
+     </div>
+     <div data-role="content" align="center">
+        <div>
+          <h2>TELCEL</h2>
+          <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>TELCEL</h1>
+         <div>
+          <p>COMPAÑIAS DE SERVICIO DE RED MOVIL</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/Telcel-Logo-600x330.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>MOVISTAR</h1>
+         <div>
+          <p>COMPAÑIAS DE SERVICIO DE RED MOVIL </p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/Movistar-logo-1024x768.png" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>UNEFON</h1>
+         <div>
+          <p>COMPAÑIAS DE SERVICIO DE RED MOVIL</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/unefon.png" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+      </div> 
+      </div>
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>ATYT</h1>
+         <div>
+          <p>COMPAÑIAS DE SERVICIO DE RED MOVIL</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/650_1200.jpg" width="40%" height="37%">
+         </div>
+           </div>
+    </div>
+    <div>
+      </div> 
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicación dos, DMM</h4></div>
+     </div>
+    </div>
+
+</body>
+</html>
+
